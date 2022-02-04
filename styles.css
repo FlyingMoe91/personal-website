@@ -6,6 +6,7 @@
 body {
   margin: 0px;
   font-family: "Roboto";
+  font-size: 1.5rem;
 }
 header {
   background-color: #262a47;
@@ -37,6 +38,7 @@ nav a {
 
 section {
   padding: 20px;
+  border-radius: 20px;
 }
 
 figure {
@@ -79,26 +81,25 @@ figcaption {
 
 .aboutMeh2 {
   color: #262a47;
-  font-size: 1.5rem;
 }
 
 .aboutMeh2 p {
   line-height: 2;
 }
 
+.intro {
+  text-align: center;
+  color: rgb(185, 202, 219);
+  padding: 25px;
+}
+
 .intAndSkill {
   display: flex;
   justify-content: center;
-  gap: 0px;
+  gap: 200px;
   color: aliceblue;
 }
 
 .icons {
   width: 0px;
-}
-
-.intro {
-  text-align: center;
-  color: rgb(185, 202, 219);
-  padding: 25px;
 }
