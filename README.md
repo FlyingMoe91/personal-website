@@ -1,1 +1,1 @@
-Thats just a README for traing.
+At the neuefische web-developer program we started coding our personal Website!

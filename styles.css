@@ -63,11 +63,6 @@ figcaption {
   background-color: rgb(185, 202, 219);
 }
 
-#cv {
-  background-color: aliceblue;
-  color: #262a47;
-}
-
 #contact {
   background-color: rgb(185, 202, 219);
 }
@@ -93,32 +88,45 @@ figcaption {
 
 .intro {
   text-align: center;
-  color: rgb(185, 202, 219);
+  color: rgb(122, 148, 173);
   padding: 25px;
 }
 
-.intAndSkill {
+.intSkill {
+  color: aliceblue;
+}
+
+.skillBox {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 200px;
-  color: aliceblue;
 }
 
 .cv {
   text-align: center;
-  color: #262a47;
+  background-color: aliceblue;
+  color: rgb(122, 148, 173);
 }
 
 .contact {
   color: aliceblue;
   text-align: center;
 }
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
 .iconbox {
   font-size: 50px;
   display: flex;
   justify-content: center;
   gap: 60px;
+  padding: 50px;
 }
 
 footer {
