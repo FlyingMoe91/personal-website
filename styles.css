@@ -13,10 +13,6 @@ header {
   font-size: large;
 }
 
-p {
-  color: grey;
-}
-
 h1 {
   font-size: 4rem;
   color: aliceblue;
@@ -32,7 +28,6 @@ h2 {
 
 nav {
   display: flex;
-  justify-content: flex-end;
 }
 
 nav a {
@@ -51,16 +46,11 @@ figure {
 }
 
 figcaption {
-  font-size: 5rem;
-  color: #262a47;
+  color: rgb(185, 202, 219);
 }
 
 #aboutMe {
   background-color: aliceblue;
-}
-
-.intro {
-  text-align: center;
 }
 
 #interests-skills {
@@ -76,8 +66,24 @@ figcaption {
   background-color: rgb(185, 202, 219);
 }
 
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .me-pic {
   border-radius: 50%;
+  width: 70%;
+}
+
+.aboutMeh2 {
+  color: #262a47;
+  font-size: 1.5rem;
+}
+
+.aboutMeh2 p {
+  line-height: 2;
 }
 
 .intAndSkill {
@@ -89,4 +95,10 @@ figcaption {
 
 .icons {
   width: 0px;
+}
+
+.intro {
+  text-align: center;
+  color: rgb(185, 202, 219);
+  padding: 25px;
 }
