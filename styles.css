@@ -51,22 +51,6 @@ figure {
   align-items: center;
 }
 
-figcaption {
-  color: rgb(185, 202, 219);
-}
-
-#aboutMe {
-  background-color: aliceblue;
-}
-
-#interests-skills {
-  background-color: rgb(185, 202, 219);
-}
-
-#contact {
-  background-color: rgb(185, 202, 219);
-}
-
 .top {
   display: flex;
   align-items: center;
@@ -93,6 +77,7 @@ figcaption {
 }
 
 .intSkill {
+  background-color: rgb(185, 202, 219);
   color: aliceblue;
 }
 
@@ -110,6 +95,7 @@ figcaption {
 }
 
 .contact {
+  background-color: rgb(185, 202, 219);
   color: aliceblue;
   text-align: center;
 }
@@ -122,11 +108,21 @@ figcaption {
 }
 
 .iconbox {
-  font-size: 50px;
+  font-size: 70px;
   display: flex;
   justify-content: center;
   gap: 60px;
   padding: 50px;
+}
+
+.contact a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.iconbox a:hover {
+  color: red;
+  text-decoration: none;
 }
 
 footer {
