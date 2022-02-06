@@ -6,10 +6,13 @@
 
 body {
   margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-family: "Roboto";
   font-size: 1.5rem;
 }
 header {
+  /*background-image: url(); */
   background-color: #262a47;
   padding: 5px;
   font-size: large;
@@ -23,6 +26,7 @@ h1 {
   text-align: center;
   text-decoration: underline;
   padding: 2rem;
+  letter-spacing: 0.5em;
 }
 
 h2 {
@@ -62,23 +66,46 @@ figure {
   width: 70%;
 }
 
-.aboutMeh2 {
-  color: #262a47;
-}
-
-.aboutMeh2 p {
-  line-height: 2;
-}
-
 .intro {
   text-align: center;
   color: rgb(122, 148, 173);
   padding: 25px;
 }
 
-.intSkill {
-  background-color: rgb(185, 202, 219);
+.intro p {
+  line-height: 2;
+}
+
+.aboutMe {
+  text-align: center;
+  background-color: rgb(166, 196, 219);
   color: aliceblue;
+  padding: 0px 200px;
+  line-height: 2;
+}
+
+.aboutMe span {
+  line-height: 4;
+  font-size: 2rem;
+}
+
+.cv {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: rgb(122, 148, 173);
+}
+
+.cv div {
+  border: 1px solid rgb(122, 148, 173);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.intSkill {
+  color: aliceblue;
+  background-color: rgb(166, 196, 219);
 }
 
 .skillBox {
@@ -88,15 +115,8 @@ figure {
   gap: 200px;
 }
 
-.cv {
-  text-align: center;
-  background-color: aliceblue;
-  color: rgb(122, 148, 173);
-}
-
 .contact {
-  background-color: rgb(185, 202, 219);
-  color: aliceblue;
+  color: rgb(122, 148, 173);
   text-align: center;
 }
 
@@ -105,6 +125,8 @@ figure {
   justify-content: center;
   align-items: center;
   gap: 200px;
+  font-size: 2rem;
+  line-height: 2;
 }
 
 .iconbox {
@@ -123,6 +145,15 @@ figure {
 .iconbox a:hover {
   color: red;
   text-decoration: none;
+}
+
+.backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
 }
 
 footer {
