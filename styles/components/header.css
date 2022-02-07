@@ -31,14 +31,14 @@ figure {
   align-items: center;
 }
 
+.me-pic {
+  border-radius: 50%;
+  width: 70%;
+}
+
 .top {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-}
-
-.me-pic {
-  border-radius: 50%;
-  width: 70%;
 }

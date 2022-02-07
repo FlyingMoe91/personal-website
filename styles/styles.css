@@ -6,5 +6,6 @@
 @import "./components/interests-and-skills.css";
 @import "./components/contact.css";
 @import "./components/footer.css";
+@import "./utility.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");

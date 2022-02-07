@@ -1,0 +1,8 @@
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
