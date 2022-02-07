@@ -2,10 +2,9 @@
   text-align: center;
   background-color: rgb(166, 196, 219);
   color: aliceblue;
-  line-height: 2;
 }
 
-.aboutMe span {
+.aboutMe__quote--italic {
   line-height: 4;
   font-size: 2rem;
 }

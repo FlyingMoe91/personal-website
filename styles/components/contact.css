@@ -4,17 +4,16 @@
   padding: 1%;
 }
 
-.address {
+.contact__address {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 200px;
   font-size: 2rem;
-  line-height: 2;
 }
 
-.iconbox {
+.contact__iconbox {
   font-size: 70px;
   display: flex;
   justify-content: center;
@@ -23,11 +22,6 @@
 }
 
 .contact a:hover {
-  color: red;
-  text-decoration: none;
-}
-
-.iconbox a:hover {
   color: red;
   text-decoration: none;
 }
