@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+}
+
+section {
+  padding: 20px;
+  border: 1px solid rgb(185, 202, 219);
+  border-radius: 30px;
+}
+
+h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+}

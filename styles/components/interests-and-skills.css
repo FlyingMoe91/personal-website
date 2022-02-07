@@ -1,0 +1,11 @@
+.intSkill {
+  color: aliceblue;
+  background-color: rgb(166, 196, 219);
+}
+
+.skillBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 200px;
+}

@@ -1,0 +1,10 @@
+@import "./base.css";
+@import "./components/header.css";
+@import "./components/intro.css";
+@import "./components/aboutMe.css";
+@import "./components/cv.css";
+@import "./components/interests-and-skills.css";
+@import "./components/contact.css";
+@import "./components/footer.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
