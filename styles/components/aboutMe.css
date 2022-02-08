@@ -1,0 +1,10 @@
+.aboutMe {
+  text-align: center;
+  background-color: rgb(166, 196, 219);
+  color: aliceblue;
+}
+
+.aboutMe__quote--italic {
+  line-height: 4;
+  font-size: 2rem;
+}

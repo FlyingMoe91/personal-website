@@ -1,0 +1,40 @@
+.header {
+  background-color: #262a47;
+  padding: 5px;
+  font-size: large;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.header__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.header__headline {
+  font-size: 2.5rem;
+  color: aliceblue;
+  text-align: center;
+  text-decoration: underline;
+  padding: 2rem;
+  letter-spacing: 0.5em;
+}
+
+.header__pictureBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 18px 0;
+}
+
+.header__picture {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.nav__link {
+  margin: 1rem;
+  color: aliceblue;
+}

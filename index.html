@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic"
       rel="stylesheet"
@@ -17,25 +17,25 @@
     <title>Patrick Müller</title>
   </head>
   <body>
-    <header>
-      <div class="top" id="top">
-        <h1>Patrick Müller</h1>
-        <figure>
-          <img src="images/me.png" alt="me" class="me-pic" />
+    <header class="header">
+      <div class="header__box" id="top">
+        <h1 class="header__headline">Patrick Müller</h1>
+        <figure class="header__pictureBox">
+          <img class="header__picture" src="images/me.png" alt="me" />
         </figure>
       </div>
       <nav>
-        <a href="#intro">Intro</a>
-        <a href="#aboutMe">About me</a>
-        <a href="#cv">CV</a>
-        <a href="#interests-skills">Interests and skills</a>
-        <a href="#contact">Contact</a>
+        <a class="nav__link" href="#intro">Intro</a>
+        <a class="nav__link" href="#aboutMe">About me</a>
+        <a class="nav__link" href="#cv">CV</a>
+        <a class="nav__link" href="#interests-skills">Interests and skills</a>
+        <a class="nav__link" href="#contact">Contact</a>
       </nav>
     </header>
     <main>
       <section class="intro" id="intro">
         <h2>Welcome to my page!</h2>
-        <p class="intro">
+        <p class="lh-2">
           Hey guys!!! I'm glad you made it here. <br />
           I'm Patrick, 30years old from Berlin, Germany. <br />
           Recently I was travelling around the world and now with the help of
@@ -51,7 +51,7 @@
       </section>
       <section class="aboutMe" id="aboutMe">
         <h2>About me</h2>
-        <p>
+        <p class="lh-2">
           My location-independent life in the past three years gave me a new
           perspective on the subject work. <br />
           Thanks to an online masterclass(fullstack) I realized new chances for
@@ -60,7 +60,7 @@
           team. <br />
           I can implement diverse projects and see the results straight away.
           <br />
-          <span
+          <span class="aboutMe__quote--italic"
             ><i
               >I am not a person who knows everything, but I am a person who
               wants to learn everything.</i
@@ -70,7 +70,7 @@
       </section>
       <section class="cv" id="cv">
         <h2>Curriculum vitae</h2>
-        <div>
+        <div class="cv__item lh-2">
           <h4>2020 - 2020 : 21MT - Australia</h4>
           <p>
             21MT is an australian company, which raises the efficiency,
@@ -79,7 +79,7 @@
             shotcrete thickness information to nozzlemen and engineers.
           </p>
         </div>
-        <div>
+        <div class="cv__item lh-2">
           <h4>2019 - 2019 : Ohlala Perhentian</h4>
           <p>
             At Ohlala Perhentian I went through emergency first-responder-,
@@ -87,7 +87,7 @@
             Pro Divemaster.
           </p>
         </div>
-        <div>
+        <div class="cv__item lh-2">
           <h4>2014 - 2019 : Kaufland Warenhandel GmbH</h4>
           <p>
             The Kaufland group is represented by almost 1,300 Supermarkets with
@@ -97,7 +97,7 @@
             for 8-11 hours.
           </p>
         </div>
-        <div>
+        <div class="cv__item lh-2">
           <h4>2012 - 2013 : World Disney World</h4>
           <p>
             As a Cultural Representative at the German Pavilion at World Disney
@@ -107,13 +107,13 @@
             Health and HACCP classes.
           </p>
         </div>
-        <div>
-          <h4>2004 - 2011 : High school</h4>
+        <div class="cv__item lh-2">
+          <h4>2011 : A-levels High School Degree</h4>
         </div>
       </section>
-      <section class="intSkill" id="interests-skills">
+      <section class="skills" id="interests-skills">
         <h2>Interests and skills</h2>
-        <div class="skillBox">
+        <div class="skills__box">
           <div>
             <h3>Web skills</h3>
             <ul>
@@ -141,7 +141,7 @@
       </section>
       <section class="contact" id="contact">
         <h2>Contact</h2>
-        <div class="address">
+        <div class="contact__address lh-2">
           <address>
             Patrick Müller <br />
             maxmustermann street 555 <br />
@@ -152,7 +152,7 @@
             <a href="mailto:mailme@example.com">mail: me@example.com</a>
           </div>
         </div>
-        <div class="iconbox">
+        <div class="contact__iconbox lh-2">
           <a href="https://github.com/FlyingMoe91" target="_blank"
             ><i class="fab fa-github"></i
           ></a>
@@ -165,12 +165,12 @@
         </div>
       </section>
       <a href="#top"
-        ><button class="backToTop">
+        ><button class="back-to-top">
           <i class="fas fa-chevron-up"></i></button
       ></a>
     </main>
-    <footer>
-      <p>&copy Mypersonalwebsite/PatrickMüller</p>
+    <footer class="footer">
+      <p class="footer__text">&copy Mypersonalwebsite/PatrickMüller</p>
     </footer>
   </body>
 </html>

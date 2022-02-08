@@ -1,0 +1,13 @@
+.cv {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: rgb(122, 148, 173);
+}
+
+.cv__item {
+  border: 1px solid rgb(122, 148, 173);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+}

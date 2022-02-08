@@ -1,0 +1,27 @@
+.contact {
+  color: rgb(122, 148, 173);
+  text-align: center;
+  padding: 1%;
+}
+
+.contact__address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 200px;
+  font-size: 2rem;
+}
+
+.contact__iconbox {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 50px;
+}
+
+.contact a:hover {
+  color: red;
+  text-decoration: none;
+}

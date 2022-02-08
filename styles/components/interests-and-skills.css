@@ -1,0 +1,11 @@
+.skills {
+  color: aliceblue;
+  background-color: rgb(166, 196, 219);
+}
+
+.skills__box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 200px;
+}
