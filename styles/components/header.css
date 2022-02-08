@@ -1,6 +1,6 @@
-header {
+.header {
   background-color: #262a47;
-  padding: 15px;
+  padding: 5px;
   font-size: large;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -14,7 +14,7 @@ header {
 }
 
 .header__headline {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   color: aliceblue;
   text-align: center;
   text-decoration: underline;
@@ -26,11 +26,12 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 18px 0;
 }
 
 .header__picture {
   border-radius: 50%;
-  width: 70%;
+  width: 50%;
 }
 
 .nav__link {
